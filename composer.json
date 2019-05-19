@@ -1,0 +1,21 @@
+{
+    "name": "aristidesbneto/phpcommon",
+    "description": "Criando um mini Framework",
+    "authors": [
+        {
+            "name": "Aristides Neto",
+            "email": "aristides.neto@buenonetworks.com.br"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.8"
+    },    
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aristides\\": "src"
+        }
+    }
+}
